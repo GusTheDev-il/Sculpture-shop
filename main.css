@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: inline;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    border-bottom: solid 1px rgb(255, 255, 255);
+}
+
+header h1 {
+    justify-content: center;
+    margin-left: 50px;
+}   
+
+nav {
+    border-bottom: solid 1px white;
+    padding: 20px;
+}
+
+nav li{
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+}
+
+.menu li {
+    float: left;
+    list-style: none;
+    padding: 10px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.329);
+    color: rgb(255, 255, 255);
+}
+
+.clear {
+    clear: both;
+}
+
+.menu li:hover .menu-produtos {
+    display: block;
+}
+
+.menu-produtos {
+    background-color: rgb(0, 0, 0);
+    display: none;
+    position: absolute;   
+    top: 100%;
+}
+
+.menu-produtos a {
+    display: block;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+#opcao a {
+    color: white;
+}
+
+.esculturas-africanas,
+.esculturas-gregas,
+.esculturas-japonesas,
+.action-figures {
+    background-image: url(Cimento\ Parede\ Stone\ Tijolo\ Background.jpg);
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    border-radius: 15px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.705);
+    color: rgb(10, 6, 6);
+    width: 270px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 15px;
+    border: white solid 0.5px;
+}
+
+button {
+    border-bottom: solid 1px black;
+    margin-left: 80px;
+    border-radius: 15px;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: rgba(42, 250, 0, 0.473);
+    color: rgb(0, 0, 0);
+}
+
+button:hover {
+    color: white;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.card:hover {
+    background-color: rgba(0, 0, 0, 0.61);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.imagem {
+    height: 350px;
+    margin-bottom: 15px;
+    background-size: contain;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.cabeçudos {
+    background-image: url(African\ Art-Africart-Art\ Africain-Arte\ Africana-Mostra\ _Africa\ in\ Forme__\ \ Asti-Italy.png);
+}
+
+.songye {
+    background-image: url(Songye\ Art\ Mask\,\ fetish\ Masque\ Fétiche\ African\ Tribal\ Art\ Africain.jpg);
+}
+
+.mascara {
+    background-image: url(African\ Art-Africart-Art\ Africain-Arte\ Africana-Pende\ \(Bapende-Pindi\).jpg);
+}
+
+.amaldicao {
+    background-image: url(download.jpg);
+    background-size: 260px;
+}
+
+.abela {
+    background-image: url(Ferdinando\ Andreini\ _The\ bather_.jpg);
+}
+
+.agrega {
+    background-image: url(Possibly\ by\ Polly\ _\ Nymph\ _\ French\ _\ The\ Metropolitan\ Museum\ of\ Art.png);
+}
+
+.fujin-raijin {
+    background-image: url(仏像紹介BOT\ on\ Twitter.jpg);
+}
+
+.shisa {
+    background-image: url(Kirin.jpg);
+}
+
+.oarqueiro {
+    background-image: url(BOGENSCHÜTZE_\ Japan\,\ Meiji-Zeit\,\ H\ 41\ cm_.jpg);
+}
+
+.gyutaro {
+    background-image: url(Demon\ Slayer\ Demon\ Series\ Upper\ Moon\ 6\ Gyutaro\ Figure\ _\ Cheng\ Studio.jpg);
+}
+
+.luffy {
+    background-image: url(download\ \(1\).jpg);
+}
+
+.kakashi {
+    background-image: url(download\ \(3\).jpg);
+}
+
+.fuzileira {
+    background-image: url(Anthony\'s\ Custom\ Action\ Figures.jpg);
+}
+
+.joker {
+    background-image: url(download\ \(4\).jpg);
+}
+
+.deadpool {
+    background-image: url(download\ \(2\).jpg);
+}
+
+.classes {
+    font-size: 20px;  
+    padding: 60px;
+    margin: 80px;
+    margin-left: 250px;
+}
+
+.classes li a {
+    list-style: none;
+    margin: 18px;
+    color: rgb(148, 144, 144);
+    display: inline;
+    padding: 18px;
+    background-color: rgba(0, 0, 0, 0.288);
+    border-radius: 15px;
+    border: solid 1px white;
+}
+
+li {
+    list-style: none;
+}
+
+.esculturas-africanas {
+    padding: 50px;
+    margin: 80px;  
+    background-image: url(Yellow\ African\ Traditional\ Background.jpg);
+}
+
+.esculturas-gregas {
+    padding: 50px;
+    margin: 80px;  
+}
+
+.esculturas-japonesas {
+    padding: 50px;
+    margin: 80px;  
+    background-image: url(Lonely\ Shrine\ _\ Feudal\ Japan\ Environment\ Challenge\,\ Ahmet\ Bluhm.jpg);
+}
+
+.action-figures {
+    padding: 50px;
+    margin: 80px;
+    background-image: url(Mika\ Pikazo\ on\ Twitter.jpg);   
+}
+
+#backgraundA {
+background-image: url(Greek\ skull\,\ by\ Billelis\ [1920x1080].png);
+background-size: contain;
+
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.dentrodaloja {
+    background-color: rgba(255, 255, 255, 0.329);
+    padding: 50px;
+    margin: 80px;
+    border-radius: 15px;  
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#textoloja {
+    font-size: 15px;
+    color: white;
+    margin-top: 30px;
+}
+
+#textoloja h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;
+    border: solid 1px rgb(255, 255, 255);   
+}
+
+img:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+    border: solid 1px black;
+}
+
+@media screen and (max-width: 767px) {
+
+header {
+        display: block;
+        padding: 0px;
+        margin-left: 0px;
+        font-size: 30px;
+        margin: 25px;
+    }
+
+li {
+    font-size: 18px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+
+    .classes {
+        font-size: 18px;  
+        padding: 0px;
+        margin: 0px;
+        margin-left: 0px;
+    }
+
+    nav {
+        padding: 0;
+        margin: 0;
+        width: 0;
+        display: inline;
+    }
+    
+    .classes li a {
+        list-style: none;
+        margin: 10px;
+        color: rgb(255, 255, 255);
+        display: inline;
+        padding: 0;
+        background-color: rgba(0, 0, 0, 0.288);
+        border-radius: 0;
+    }
+
+#opcao a {
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+#backgraundA {
+        background-repeat: no-repeat;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    }
+
+img {
+    max-width: 90%;
+    max-height: 80%;
+    margin: 10px;
+}
+
+.esculturas-africanas,
+.esculturas-gregas,
+.esculturas-japonesas,
+.action-figures {
+    background-position: center;
+    background-size: cover;
+    display: block;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    max-width: 90%;
+}
+
+
+.card {
+    background-color: rgba(255, 255, 255, 0.705);
+    color: rgb(10, 6, 6);
+    max-height: 90%;
+    border-radius: 15px;
+    border: white solid 0.5px;
+    max-width: 90%;
+    justify-items: center;
+    margin-left: 40px;
+    display: block;
+}
+
+.imagem {
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: top;
+    border-radius: 15px 15px 0 0;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.dentrodaloja {
+    background-color: rgba(255, 255, 255, 0.329);
+    padding: 0;
+    margin: 18px;
+    border-radius: 15px;  
+    display: block;
+}
+
+#textoloja {
+    font-size: 15px;
+    color: white;
+    margin-top: 30px;
+    -ms-text-size-adjust: auto;
+}
+
+#textoloja h3 {
+    margin-bottom: 15px;
+    -ms-text-size-adjust: auto;
+}
+
+.menu li {
+    clear: both;
+}
+
+.menu{
+    width: 100%;
+    display: block;
+}
+
+.menu-produtos {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    position: relative;
+    border: none;
+}
+
+.menu-produtos a {
+    display: block;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+}
+}
+
+@media screen and (min-width: 760px) and (max-width: 1031px) {
+    header {
+        display: block;
+        padding: 0px;
+        margin-left: 0px;
+        font-size: 40px;
+        margin: 25px;
+    }
+
+li {
+    font-size: 18px;
+    margin: 18px;
+    display: inline;
+    padding: 18px;
+}
+
+
+.classes {
+    font-size: 20px;  
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    display: flex;
+}
+
+nav {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.classes li a {
+    list-style: none;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.288);
+    border-radius: 15px;
+}
+
+#opcao a {
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+img {
+    max-width: 90%;
+    max-height: 80%;
+    margin: 10px;
+}
+
+.esculturas-africanas,
+.esculturas-gregas,
+.esculturas-japonesas,
+.action-figures {
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    padding: 20px;
+    margin: 20px;
+    max-width: 100%;
+}
+
+
+.card {
+    background-color: rgba(255, 255, 255, 0.705);
+    color: rgb(10, 6, 6);
+    max-height: 100%;
+    border-radius: 15px;
+    border: white solid 0.5px;
+    max-width: 100%;
+    justify-items: center;
+    margin-left: 40px;
+}
+
+.imagem {
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: top;
+    border-radius: 15px 15px 0 0;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.dentrodaloja {
+    background-color: rgba(255, 255, 255, 0.329);
+    padding: 0;
+    margin: 18px;
+    border-radius: 15px;  
+    display: block;
+}
+
+
+}
